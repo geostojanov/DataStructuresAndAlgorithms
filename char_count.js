@@ -1,3 +1,5 @@
+// Write a function that takes in a string and return counts of each character in the string.
+
 // function charCount(str) {
 //     let result = {};
 //      for(let i = 0; i < str.length; i++) {
@@ -16,14 +18,16 @@
 function charCount(str) {
     let result = {};
      for(let char of str) {
-         if(isAlphanumeric(ch)) {
+         if(isAlphanumeric(char)) {
             let ch = char.toLowerCase();
              result[ch] = ++result[ch] || 1;
          }
      }
     return result;
-}
+} // O(n)
 
+
+//helper
 function isAlphanumeric(char) {
     let code = char.charCodeAt();
     if ((code > 47 && code < 58) ||     //digits 0-9
@@ -35,4 +39,3 @@ function isAlphanumeric(char) {
 }
 
 console.log(charCount("Hello there hi!"));
-// console.log(isAlphanumeric("A"));

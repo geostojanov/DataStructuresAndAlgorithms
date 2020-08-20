@@ -14,4 +14,4 @@ function sumZero(arr) {
     }
 }
 
-console.log(sumZero([-5,-4,-3,0,1,2,3,4,6]));
+console.log(sumZero([-5,-4,-3,0,1,2,3,4,6])); //O(n)
