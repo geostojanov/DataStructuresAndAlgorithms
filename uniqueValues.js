@@ -15,4 +15,4 @@ function uniqueValues(arr) {
     return i+1;
 }
 
-console.log(uniqueValues([]));
+console.log(uniqueValues([])); //O(n)
