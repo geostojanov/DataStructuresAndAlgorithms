@@ -28,4 +28,4 @@ function sameFrequency(int1, int2) {
   return true;
 }
 
-console.log(sameFrequency(22, 22));
+console.log(sameFrequency(1234, 1233));

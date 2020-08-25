@@ -17,4 +17,4 @@ function isAnagram(string1, string2) {
     return true;
 }
 
-console.log(isAnagram('iceman', 'cinema')); //O(n)
+console.log(isAnagram('', '')); //O(n)
